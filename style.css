@@ -1,0 +1,252 @@
+*
+
+body {
+    background: rgb(131,77,157);
+    background: linear-gradient(90deg, rgba(131,77,157,1) 0%, rgba(208,78,214,1) 100%);
+}
+
+/* Navbar */
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    font-family: 'Poppins';
+    padding-top: 10px;
+}
+
+.logo-gajihub {
+    width: 20%;
+}
+
+.navbar-button {
+    display: flex;
+    color: #ffffff;
+    gap: 50px;
+}
+
+.solusi-button {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.harga-button {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.blog-button {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.singup-button {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-right {
+    display: flex;
+    color: #ffffff;
+    gap: 20px;
+}
+
+.login-button {
+    display: flex;
+    background-color: #633377;
+    border: 1px;
+    width: 70px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+/* Navbar End */
+
+/* Body */
+.body-container {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-hero {
+    display: flex;
+    font-style: bold;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 4px 2px rgba(0,0,0,0.6);
+}
+
+.p-description {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Poppins', Arial;
+}
+
+.button-description {
+    display: flex;
+    gap: 20px;
+    border: 1px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.text-button {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+.arrow-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #9d9696;
+    border: 1px;
+    width: 30px;
+    height: 31px;
+    border-radius: 50%;
+}
+
+.picture-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+
+.picture-mask {
+    width: 35%;
+}
+/* Body End */
+
+
+/* Footer */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.h1-footer {
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+
+.h1-footer2 {
+    color: #ffffff;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+}
+
+.p-footer {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.p-footer2 {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 10%;
+}
+
+.line-footer {
+    border: solid 5px;
+    width: 100%;
+    color: #f3f3f3;
+}
+
+.footer-zone {
+    display: flex;
+    background-color: #f3f3f3;
+    width: 100%;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.footer-pict {
+    width: 30%;
+}
+
+.button-footer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+
+.button1, .button3, .button4, .button5, .button6, .button7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button2 {
+    display: flex;
+    gap: 50px;
+}
+/* Footer End */
+
+/* Hover */
+.solusi-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.harga-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.blog-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.singup-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.button-description:hover {
+    cursor: pointer;
+}
+/* Hover End */
+
+/* Responsive */
+.navbar-containerResponsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50%;
+}
+
+.logo-gajihubResponsive {
+    display: flex;
+    width: 100px;
+}
+/* Responsive End */

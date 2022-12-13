@@ -1,8 +1,15 @@
 *
 
 body {
-    background: rgb(131,77,157);
-    background: linear-gradient(90deg, rgba(131,77,157,1) 0%, rgba(208,78,214,1) 100%);
+    background: rgb(0,4,40);
+    background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
+}
+
+.background {
+    background-image: url(/Assets/BG\ MUMET.svg);
+    background-size: 100%;
+    background-position-y: -169px;
+    background-position-x: -40px;
 }
 
 /* Navbar */
@@ -11,9 +18,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 50px;
     font-family: 'Poppins';
-    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .logo-gajihub {
@@ -54,7 +61,7 @@ body {
 
 .login-button {
     display: flex;
-    background-color: #633377;
+    background-color: #3038ff;
     border: 1px;
     width: 70px;
     border-radius: 20px;
@@ -67,9 +74,30 @@ body {
 .body-container {
     display: flex;
     color: #ffffff;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    /* align-items: center; */
+}
+
+.section-division {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.description-division {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 20px;
 }
 
 .h1-hero {
@@ -79,11 +107,10 @@ body {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     text-shadow: 1px 4px 2px rgba(0,0,0,0.6);
+    
 }
 
 .p-description {
-    margin-top: 0;
-    margin-bottom: 0;
     font-family: 'Poppins', Arial;
 }
 
@@ -91,15 +118,16 @@ body {
     display: flex;
     gap: 20px;
     border: 1px;
-    width: 25%;
+    width: 50%;
     justify-content: center;
     align-items: center;
     padding: 10px;
     border-radius: 20px;
     background-color: #fff500;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-style: normal;
+    margin-right: 50%;
 }
 
 .text-button {
@@ -118,17 +146,22 @@ body {
     width: 30px;
     height: 31px;
     border-radius: 50%;
+    opacity: 50%;
+}
+
+.fa-arrow-right {
+    color: #000000;
 }
 
 .picture-description {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30%;
 }
 
 .picture-mask {
-    width: 35%;
+    width: 100%;
+    margin-bottom: 150px;
 }
 /* Body End */
 
@@ -138,12 +171,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .h1-footer {
     color: #ffffff;
     font-family: 'Poppins';
+    margin-top: 0px;
 }
 
 .h1-footer2 {
@@ -234,6 +268,41 @@ body {
 .button-description:hover {
     cursor: pointer;
 }
+
+.button1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button6:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button7:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 /* Hover End */
 
 /* Responsive */
@@ -243,10 +312,239 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 50%;
+    margin-top: 20px;
+}
+
+.navbar-Responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: none;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.menu {
+    margin: 0;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    right: 200px;
+    top: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color:  rgba(0,78,146,1);
+    opacity: 100%;
+}
+
+.burgir {
+    color: white;
+}
+
+.burgirClose {
+    color: #ffffff;
+}
+
+.libutton {
+    margin: 0;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    right: 170px;
+    top: 100px;
+    width: 50vw;
+    font-style: bold;
+    font-size: 20px;
+    gap: 35px;
+}
+
+.arrow-solusi {
+    color: #ffffff;
+}
+
+.button-solusi {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.button-singup {
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.button-menuSingup {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button-menu {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .logo-gajihubResponsive {
     display: flex;
     width: 100px;
+}
+
+.logo-gajihubResponsive-menu {
+    display: flex;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.section-divisionResponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-sectionResponsive {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-heroResponsive {
+    display: flex;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 4px 2px rgba(0,0,0,0.6);
+    font-size: 25px;
+
+}
+
+.description-divisionResponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.p-descriptionResponsive {
+    display: flex;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.button-descriptionResponsive {
+    display: flex;
+    border: 1px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    border-radius: 20px;
+    background-color: #fff500;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-style: normal;
+}
+
+.text-buttonResponsive {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.picture-maskResponsive {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.footer-containerResponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.footer-zoneResponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tablet-responsive {
+    display: flex;
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.h1-footerResponsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Poppins';
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.h1-footer2Responsive {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+.h1-footer3Responsive {
+    color: #ffffff;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.p-footerResponsive {
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.p-footer2Responsive {
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 10%;
+}
+
+.button-footerResponsive {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.button1R, .button3R, .button4R, .button5R, .button6R, .button7R {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.button2R {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.button7R {
+    margin-bottom: 50px;
 }
 /* Responsive End */
